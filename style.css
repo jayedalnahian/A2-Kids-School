@@ -195,6 +195,7 @@ hr {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 20px;
 }
 
 
@@ -246,6 +247,8 @@ hr {
     line-height: 1.7rem;
     letter-spacing: 0%;
     text-align: center;
+    margin: auto auto;
+    text-overflow: ellipsis;
 }
 
 .sec-one-a {
@@ -274,31 +277,34 @@ hr {
 .sec-one-sub-div {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     border-radius: 18.86px
 }
 
 .sec-one-sub-div-1 {
-    border: 0.94px solid rgb(222, 245, 255);
+    border: 1px solid rgba(146, 182, 197, 0.575);
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
 }
 
 .sec-one-sub-div-2 {
-    border: 0.94px solid rgb(255, 244, 220);
+    border: 1px solid rgba(211, 191, 148, 0.521);
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
 }
 
 .sec-one-sub-div-3 {
-    border: 0.94px solid rgb(242, 232, 255);
+    border: 1px solid rgba(168, 138, 206, 0.527);
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
 }
 
 .sec-one-img {
     width: 50%;
-    margin-bottom: 40px;
+    max-width: 150px;
+    max-height: 150px;
+    margin-bottom: 30px;
     padding: 20px;
 
 }
@@ -465,6 +471,7 @@ hr {
 }
 
 
+
 .sec-three-btn {
     color: rgb(255, 255, 255);
     font-family: Quicksand;
@@ -480,12 +487,11 @@ hr {
     margin-bottom: 100px;
 }
 
-
 /* ******************    Footer styles         ******************* */
 
 footer {
     background: rgb(1, 172, 253);
-    width: 100%;
+    width: 99%;
     display: flex;
     align-items: center;
     justify-content: space-around;
