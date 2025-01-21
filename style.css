@@ -10,6 +10,7 @@
 
 body {
     max-width: 98vw;
+    background-image: url(assets/bg.png);
 }
 
 img {
@@ -215,9 +216,6 @@ hr {
 .sec-one {
 
     width: 98vw;
-    background: url(assets/bg.png);
-    background-size: contain;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -323,7 +321,7 @@ hr {
     padding: 15px;
 }
 
-.sec-one-second-div{
+.sec-one-second-div {
     display: flex;
     gap: 20px;
 }
@@ -331,6 +329,237 @@ hr {
 
 
 
+
+
+/* ******************   section three style    ******************** */
+
+
+.sec-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    gap: 50px;
+}
+
+.sec-three-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 20vw);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:
+        "item1  item1   item2  item3"
+        "item1  item1   item4  item5"
+    ;
+    grid-gap: 20px;
+    border-radius: 20px;
+}
+
+.item1 {
+    grid-area: item1;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+
+.item2 {
+    grid-area: item2;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+
+.item3 {
+    grid-area: item3;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+
+.item4 {
+    grid-area: item4;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+
+.item5 {
+    grid-area: item5;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+
+.date {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 12.34px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    width: fit-content;
+    padding: 10px 15px;
+    position: relative;
+    top: -20px;
+    left: 50px;
+
+}
+
+.sec-three-grid-item1-des1 {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38.35px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-overflow: ellipsis;
+    margin: 20px;
+}
+
+.sec-three-grid-item1-des2 {
+    color: rgb(102, 102, 102);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-overflow: ellipsis;
+    margin: 20px;
+}
+
+
+.sec-three-grid-item2-des1 {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 15.34px;
+    font-weight: 700;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0px 20px;
+}
+
+
+.date-bg-color-1 {
+    background-color: rgb(149, 178, 38);
+}
+
+.date-bg-color-1 {
+    background-color: rgb(93, 88, 240);
+}
+
+.date-bg-color-1 {
+    background-color: rgb(11, 219, 39);
+}
+
+.date-bg-color-1 {
+    background-color: rgb(166, 38, 178);
+}
+
+
+.sec-three-btn {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+
+/* ******************    Footer styles         ******************* */
+
+footer {
+    background: rgb(1, 172, 253);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.footer-beg-logo {
+    width: 25%;
+}
+
+.kid-education {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 42.14px;
+    font-weight: 700;
+    line-height: 39.51px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.kid-education-des {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.about-school {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+footer ul{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer div {
+    display: flex;
+}
+
+footer > section > div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.footer-logos{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
 
 /* ******************adding responsiveness******************** */
 
@@ -406,9 +635,30 @@ hr {
         width: 95vw;
     }
 
-    .sec-one-second-div{
+    .sec-one-second-div {
         display: none;
     }
 
+    /* ..................for SECTION THREE..................... */
+
+    .item1 {
+        display: none;
+    }
+
+    .sec-three-grid {
+        grid-template-columns: repeat(2, 45vw);
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas:
+            "item2  item3"
+            "item4  item5"
+        ;
+    }
+    /* ..................for footer SECTION..................... */
+
+    footer{
+        flex-direction: column;
+        gap: 50px;
+        align-items: baseline;
+    }
 
 }
