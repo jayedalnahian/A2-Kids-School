@@ -257,13 +257,15 @@ hr {
     margin: 20px 0;
 }
 
-.sec-one-a-1{
+.sec-one-a-1 {
     color: rgb(100, 200, 255);
 }
-.sec-one-a-2{
+
+.sec-one-a-2 {
     color: rgb(240, 170, 0);
 }
-.sec-one-a-3{
+
+.sec-one-a-3 {
     color: rgb(135, 0, 255);
 }
 
@@ -272,7 +274,6 @@ hr {
     flex-direction: column;
     align-items: center;
     border-radius: 18.86px
-    
 }
 
 .sec-one-sub-div-1 {
@@ -297,7 +298,7 @@ hr {
     width: 50%;
     margin-bottom: 40px;
     padding: 20px;
-    
+
 }
 
 .sec-one-first-div {
@@ -305,6 +306,26 @@ hr {
     display: flex;
     gap: 28px;
 
+}
+
+.sec-one-second-div-sub {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    font-family: Font Awesome 5 Free;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 15px;
+}
+
+.sec-one-second-div{
+    display: flex;
+    gap: 20px;
 }
 
 
@@ -348,7 +369,8 @@ hr {
         line-height: 2.5rem;
         text-align: center;
     }
-    .hero-description{
+
+    .hero-description {
         text-align: center;
     }
 
@@ -369,18 +391,23 @@ hr {
 
     /* ...SECTION ONE STYLE ...... */
 
-    .third-heading{
+    .third-heading {
         font-size: 1.625rem;
         line-height: 3rem;
     }
 
-    .sec-one-first-div{
+    .sec-one-first-div {
         flex-direction: column;
         align-items: center;
         gap: 100px;
     }
-    .sec-one-sub-div{
+
+    .sec-one-sub-div {
         width: 95vw;
+    }
+
+    .sec-one-second-div{
+        display: none;
     }
 
 
